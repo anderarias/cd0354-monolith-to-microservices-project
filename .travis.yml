@@ -17,7 +17,7 @@ script:
   - docker tag udagram-api-feed anderarias/udagram-api-feed:v1
   # Do similar for other three images
   - docker tag udagram-api-user anderarias/udagram-api-user:v1
-  - docker tag udagram-frontend:local anderarias/udagram-frontend:v1
+  - docker tag udagram-frontend anderarias/udagram-frontend:v1
   - docker tag reverseproxy anderarias/reverseproxy:v1
 after_success:
   # Push
