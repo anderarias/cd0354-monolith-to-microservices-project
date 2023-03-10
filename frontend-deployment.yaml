@@ -19,3 +19,9 @@ spec:
         image: anderarias/udagram-frontend:v2
         ports:
         - containerPort: 80
+        resources:
+            limits:
+              cpu: 200m
+            requests:
+              cpu: 100m
+
